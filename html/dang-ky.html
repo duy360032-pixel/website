@@ -20,17 +20,25 @@
     </header>
 
     <main class="container">
+        <!-- Khung Đăng Ký Chuẩn Bố Cục -->
         <div class="auth-box">
-            <h2 style="margin-bottom: 20px; color: #fff;">Tạo Tài Khoản Mới</h2>
+            <h2 class="auth-title">Tạo Tài Khoản Mới</h2>
             <form id="form-join">
-                <label>Tên hiển thị</label>
-                <input type="text" class="input-field" required placeholder="Ví dụ: anhduy_redteam">
+                <!-- Group nhóm lại để không bao giờ bị lệch layout -->
+                <div class="form-group">
+                    <label for="username">Tên hiển thị</label>
+                    <input type="text" id="username" class="input-field" required placeholder="Ví dụ: duy_cybersec">
+                </div>
                 
-                <label>Địa chỉ Email</label>
-                <input type="email" class="input-field" required placeholder="name@domain.com">
+                <div class="form-group">
+                    <label for="email">Địa chỉ Email</label>
+                    <input type="email" id="email" class="input-field" required placeholder="name@domain.com">
+                </div>
                 
-                <label>Mật mã bảo mật</label>
-                <input type="password" class="input-field" required placeholder="••••••••">
+                <div class="form-group">
+                    <label for="password">Mật mã bảo mật</label>
+                    <input type="password" id="password" class="input-field" required placeholder="••••••••">
+                </div>
                 
                 <button type="submit" class="btn-block">Kích Hoạt Tài Khoản</button>
             </form>
