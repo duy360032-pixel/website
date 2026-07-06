@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Sơ đồ hệ thống - NextGen Sports</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .map-tree ul { list-style-type: square; margin-left: 30px; margin-top: 10px; }
+        .map-tree li { margin-bottom: 10px; color: #a0aec0; }
+        .map-tree a { color: #fff; text-decoration: none; font-weight: 500; }
+        .map-tree a:hover { color: var(--primary); }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo">NextGen<span>Sports</span></div>
+            <nav><ul>
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li><a href="bong-da.html">Bóng Đá Việt</a></li>
+                <li><a href="tennis.html">Quần Vợt</a></li>
+                <li><a href="dang-ky.html">Gia Nhập</a></li>
+                <li><a href="site-map.html" class="active">Sơ Đồ</a></li>
+            </ul></nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2 class="section-title">Sơ Đồ Hệ Thống Website (Site Map)</h2>
+        <div style="background: var(--bg-card); padding: 40px; border-radius: 12px; border: 1px solid var(--border-color);" class="map-tree">
+            <ul>
+                <li><a href="index.html">🗺️ Trang Chủ Portal</a>
+                    <ul>
+                        <li>Khu vực Tiêu Điểm (Hero Card Banner)</li>
+                        <li>Phân tách danh mục bất đối xứng (Grid Layout)</li>
+                    </ul>
+                </li>
+                <li>📂 Luồng Nội Dung Chi Tiết
+                    <ul>
+                        <li><a href="bong-da.html">⚽ Chuyên trang Bóng đá Việt Nam</a> (Hệ thống phản hồi & Luồng lưu tin vừa xem)</li>
+                        <li><a href="tennis.html">🎾 Chuyên trang Quần vợt quốc tế</a> (Hệ thống phản hồi & Luồng lưu tin vừa xem)</li>
+                    </ul>
+                </li>
+                <li><a href="dang-ky.html">👤 Phân hệ Đăng ký Thành viên</a> (Xử lý AJAX Form-tương tác Client)</li>
+                <li><a href="site-map.html">📍 Bản đồ sơ đồ chuyển hướng</a> (Trang hiện tại)</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer><p>&copy; 2026 tinthethao.com.vn</p></footer>
+</body>
+</html>
